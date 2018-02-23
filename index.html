@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        asdas
+    </div>
+    <script>
+    /*
+    var result = []
+    function range (start, end, count) {
+        result.push(start)
+        var s, e, ed, st
+        s = typeof start === 'string' ? start.charCodeAt() : start
+        e = s + count
+        ed = typeof end === 'string' ? end.charCodeAt() : end
+        if (e <= ed) {
+            st = e < 33 ? e : String.fromCharCode(e)
+            range(st, end, count)
+        }
+        return result
+    }
+
+    var arr2 = range(1, 10, 3)
+    console.log('arr2 is : ', arr2)
+    */
+    </script>
+    <script language="javascript">
+            window.tdiff = []; fred = function (a, b) { return a - b }
+window.document.onload = function (e) {
+                console.log('document.onload', e, Date.now(), window.tdiff,
+                    (window.tdiff[0] = Date.now()) && window.tdiff.reduce(fred))
+}
+            window.onload = function (e) {
+                console.log('window.onload', e, Date.now(), window.tdiff,
+                    (window.tdiff[1] = Date.now()) && window.tdiff.reduce(fred))
+}
+        </script>
+</body>
+
+
+</html>
