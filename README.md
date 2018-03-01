@@ -1,2 +1,5 @@
 # PracticeByLeetCode
-Practice By LeetCode
+
+#### answer js in questions
+
+#### posts is my log
